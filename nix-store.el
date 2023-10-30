@@ -13,7 +13,8 @@
 (require 'eieio)
 (require 'nix)
 (require 'nix-log)
-(require 'magit-section)
+; HACK(strager): Don't crash due to missing magit-section dependency.
+;(require 'magit-section)
 (eval-when-compile
   (require 'cl-lib))
 
